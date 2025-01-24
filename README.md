@@ -45,23 +45,32 @@ python main.py
 ### Controllers
 
 - `controlador/`: Contains the controller classes thathandle the business logic and user interactions.
+
+**General**
+
 - `principal.py`: The main controller of the application, managing the dashboard to access its functionalities.
+- `detalle.py`: Handles the detailed display of a specific invoice.
+- `transacciones.py`: Handles the detailed display of transactions performed with a specific book.
+- `negocio.py`: Provides the base functionality for managing business transactions
+- `abastecimiento.py`: Extends `negocio.py` functionality to handle the supply management process.
+- `venta.py`: Extends `negocio.py` functionality to handle the sales process.
+
+**Books**
+
 - `alterar_libro.py`: Provides the base functionality required for both adding and editing books.
 - `agregar_libro.py`: Extends `alterar_libro.py` functionality to handle adding new books.
 - `editar_libro.py`: Extends `alterar_libro.py` functionality to handle editing book details.
 - `select_libro.py`: Handles the detailed display of the books and their selection.
 - `ver_libro.py`: Handles the viewing of details for a specific book.
+
+**Users**
+
 - `alterar_usuario.py`: Provides the base functionality required for both adding and editing users (customers or suppliers).
 - `agregar_cliente.py`: Extends `alterar_usuario.py` functionality to handle adding new customers.
 - `agregar_proveedor.py`: Extends `alterar_usuario.py` functionality to handle adding new suppliers.
 - `editar_usuario.py`: Extends `alterar_usuario.py` functionality to handle editing user (customers or suppliers) information.
 - `select_usuario.py`: Handles the detailed display of the users and their selection.
 - `select_proveedor.py`: Extends `select_usuario.py` functionality to be specific to suppliers.
-- `detalle.py`: Handles the detailed display of a specific invoice.
-- `transacciones.py`: Handles the detailed display of transactions performed with a specific book.
-- `negocio.py`: Provides the base functionality for managing business transactions
-- `abastecimiento.py`: Extends `negocio.py` functionality to handle the supply management process.
-- `venta.py`: Extends `negocio.py` functionality to handle the sales process.
 
 ### Models
 
