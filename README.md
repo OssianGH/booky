@@ -64,8 +64,8 @@ python main.py
 
 ### Models
 
-Contains data models and business logic.
+-`modelo/`: Contains the model classes that represent the data and handle data operations.
 
 ### Views
 
-Contains the UI components and views.
+-`vista/`: Contains the view classes that define the GUI components.
