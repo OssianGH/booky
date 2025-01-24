@@ -23,16 +23,12 @@ Generate reports for sales and inventory.
     git clone https://github.com/OssianGH/booky.git
     cd booky
     ```
-2. Navigate to the project directory:
-    ```sh
-    cd booky
-    ```
-3. Create a virtual environment and activate it:
+2. Create a virtual environment and activate it:
    ```sh
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
-5. Install the required dependencies:
+3. Install the required dependencies:
     ```sh
     pip install PyQt6
     ```
