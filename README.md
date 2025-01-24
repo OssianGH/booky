@@ -44,6 +44,7 @@ python main.py
 
 ### Controllers
 
+- `controlador/`: Contains the controller classes thathandle the business logic and user interactions.
 - `principal.py`: The main controller of the application, managing the dashboard to access its functionalities.
 - `alterar_libro.py`: Provides the base functionality required for both adding and editing books.
 - `agregar_libro.py`: Extends `alterar_libro.py` functionality to handle adding new books.
@@ -64,8 +65,8 @@ python main.py
 
 ### Models
 
--`modelo/`: Contains the model classes that represent the data and handle data operations.
+- `modelo/`: Contains the model classes that represent the data and handle data operations.
 
 ### Views
 
--`vista/`: Contains the view classes that define the GUI components.
+- `vista/`: Contains the view classes that define the GUI components.
