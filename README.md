@@ -1,6 +1,6 @@
 # Booky
 
-Tienda Libros is a Python-based application for managing a bookstore. It provides functionalities for managing books, customers, suppliers, transactions, and reports  . The application uses PyQt6 for the graphical user interface.
+Booky is a Python-based application for managing a bookstore. It provides functionalities for managing books, customers, suppliers, transactions, and reports  . The application uses PyQt6 for the graphical user interface.
 
 ## Features
 
