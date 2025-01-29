@@ -96,3 +96,7 @@ python main.py
 ### View
 
 - `vista/`: Contains the view classes that define the GUI components.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
