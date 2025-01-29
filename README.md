@@ -40,42 +40,42 @@ To run the application, execute the following command:
 python main.py
 ```
 
-## Code overview
+## Modules
 
-### Controllers
+### Controller
 
-- `controlador/`: Contains the controller classes thathandle the business logic and user interactions.
+- `controlador/`: Contains the controller classes that handle the business logic and user interactions.
 
 **General**
 
-- `principal.py`: The main controller of the application, managing the dashboard to access its functionalities.
-- `detalle.py`: Handles the detailed display of a specific invoice.
-- `transacciones.py`: Handles the detailed display of transactions performed with a specific book.
-- `negocio.py`: Provides the base functionality for managing business transactions
-- `abastecimiento.py`: Extends `negocio.py` functionality to handle the supply management process.
-- `venta.py`: Extends `negocio.py` functionality to handle the sales process.
+- `controlador/principal.py`: The main controller of the application, managing the dashboard to access its functionalities.
+- `controlador/detalle.py`: Handles the detailed display of a specific invoice.
+- `controlador/transacciones.py`: Handles the detailed display of transactions performed with a specific book.
+- `controlador/negocio.py`: Provides the base functionality for managing business transactions
+- `controlador/abastecimiento.py`: Extends `controlador/negocio.py` functionality to handle the supply management process.
+- `controlador/venta.py`: Extends `controlador/negocio.py` functionality to handle the sales process.
 
 **Books**
 
-- `alterar_libro.py`: Provides the base functionality required for both adding and editing books.
-- `agregar_libro.py`: Extends `alterar_libro.py` functionality to handle adding new books.
-- `editar_libro.py`: Extends `alterar_libro.py` functionality to handle editing book details.
-- `select_libro.py`: Handles the detailed display of the books and their selection.
-- `ver_libro.py`: Handles the viewing of details for a specific book.
+- `controlador/alterar_libro.py`: Provides the base functionality required for both adding and editing books.
+- `controlador/agregar_libro.py`: Extends `controlador/alterar_libro.py` functionality to handle adding new books.
+- `controlador/editar_libro.py`: Extends `controlador/alterar_libro.py` functionality to handle editing book details.
+- `controlador/select_libro.py`: Handles the detailed display of the books and their selection.
+- `controlador/ver_libro.py`: Handles the viewing of details for a specific book.
 
 **Users**
 
-- `alterar_usuario.py`: Provides the base functionality required for both adding and editing users (customers or suppliers).
-- `agregar_cliente.py`: Extends `alterar_usuario.py` functionality to handle adding new customers.
-- `agregar_proveedor.py`: Extends `alterar_usuario.py` functionality to handle adding new suppliers.
-- `editar_usuario.py`: Extends `alterar_usuario.py` functionality to handle editing user (customers or suppliers) information.
-- `select_usuario.py`: Handles the detailed display of the users and their selection.
-- `select_proveedor.py`: Extends `select_usuario.py` functionality to be specific to suppliers.
+- `controlador/alterar_usuario.py`: Provides the base functionality required for both adding and editing users (customers or suppliers).
+- `controlador/agregar_cliente.py`: Extends `controlador/alterar_usuario.py` functionality to handle adding new customers.
+- `controlador/agregar_proveedor.py`: Extends `controlador/alterar_usuario.py` functionality to handle adding new suppliers.
+- `controlador/editar_usuario.py`: Extends `controlador/alterar_usuario.py` functionality to handle editing user (customers or suppliers) information.
+- `controlador/select_usuario.py`: Handles the detailed display of the users and their selection.
+- `controlador/select_proveedor.py`: Extends `controlador/select_usuario.py` functionality to be specific to suppliers.
 
-### Models
+### Model
 
 - `modelo/`: Contains the model classes that represent the data and handle data operations.
 
-### Views
+### View
 
 - `vista/`: Contains the view classes that define the GUI components.
