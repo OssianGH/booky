@@ -76,6 +76,23 @@ python main.py
 
 - `modelo/`: Contains the model classes that represent the data and handle data operations.
 
+**General**
+
+- `modelo/transaccion`: Represents a transaction (either a sale or a supply).
+- `modelo/factura.py`: Represents an invoice.
+- `modelo/ranura_factura.py`: Represents an item in an invoice.
+- `modelo/gestor_factura.py`: Manages the collection of `Factura` objects.
+
+**Books**
+
+- `modelo/libro.py`: Represents a book.
+- `modelo/gestor_libro.py`: Manages the collection of `Libro` objects.
+
+**Users**
+
+- `modelo/usuario.py`: Represents a user (either a customer or a supplier).
+- `modelo/gestor_usuario.py`: Manages the collection of `Usuario` objects.
+
 ### View
 
 - `vista/`: Contains the view classes that define the GUI components.
